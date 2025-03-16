@@ -8,6 +8,16 @@ This analysis examines historical data on serial killers to identify patterns an
 
 **Disclaimer**: This analysis is purely for academic and educational purposes. The subject matter is sensitive, and the data is presented objectively without any intent to glorify or sensationalize crime.
 
+## Interactive Notebook
+
+The `serial_killers_analysis.ipynb` notebook contains all the code and fully rendered visualizations. You can view this notebook directly on GitHub to see all the charts and analysis without having to run any code. The notebook features:
+
+- Markdown explanations before each section
+- Comments throughout the code
+- All visualizations rendered inline
+- A cohesive cool/dark color scheme appropriate for the subject matter
+- Professional presentation of sensitive data
+
 ## Analyses Performed
 
 1. **Top 10 Most Deadly Serial Killers**: Visualization of serial killers with the highest number of proven victims.
@@ -19,8 +29,15 @@ This analysis examines historical data on serial killers to identify patterns an
 
 ## Key Visualizations
 
-All visualizations are pre-generated and can be viewed directly in the notebook:
+All visualizations are rendered directly in the notebook and feature:
 
+- **Cohesive cool/dark color scheme**: Carefully selected colors for appropriate representation of the subject matter
+- **Clear data presentation**: Focused on factual representation without sensationalism
+- **Consistent styling**: Professional appearance across all visualizations
+- **Thoughtful design**: Color choices and layouts that respect the sensitivity of the subject
+- **Improved readability**: Enhanced contrast and annotations for better interpretation
+
+The main visualizations include:
 - `top10_deadliest_killers.png`: Bar chart of serial killers with the most victims
 - `top5_us_killers.png`: Bar chart of the deadliest serial killers in the US
 - `top5_countries.png`: Pie chart of countries with the most serial killers
@@ -51,8 +68,11 @@ pip install -r requirements.txt
 
 You can either:
 
-1. View the pre-generated analysis in the Jupyter notebook: `serial_killers_analysis.ipynb`
-2. Run the notebook yourself to regenerate the analysis
+1. **View the notebook on GitHub**: The notebook has all visualizations pre-rendered for easy viewing
+2. **Run the notebook locally**: To reproduce or modify the analysis
+   - Clone this repository
+   - Install requirements
+   - Run `jupyter notebook serial_killers_analysis.ipynb`
 
 ## Key Findings
 
